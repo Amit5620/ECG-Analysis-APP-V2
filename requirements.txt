@@ -1,6 +1,9 @@
-flask
+Flask
 opencv-python
 numpy
 roboflow
 supervision
+Flask-MySQLdb
+Werkzeug
+uuid
 gunicorn
