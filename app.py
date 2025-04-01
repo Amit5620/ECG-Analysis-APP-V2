@@ -4,10 +4,6 @@ import cv2
 import numpy as np
 from roboflow import Roboflow
 import supervision as sv
-from werkzeug.security import generate_password_hash, check_password_hash
-from flask_sqlalchemy import SQLAlchemy
-import pymysql  # Import PyMySQL
-from datetime import datetime
 from flask_mysqldb import MySQL
 from werkzeug.utils import secure_filename
 import uuid
