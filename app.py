@@ -10,10 +10,10 @@ import uuid
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Amit@558'
-app.config['MYSQL_DB'] = 'ecg_analysis_db'
+app.config['MYSQL_HOST'] = 'sql12.freesqldatabase.com'
+app.config['MYSQL_USER'] = 'sql12770762'
+app.config['MYSQL_PASSWORD'] = 'VggMxN1TtD'
+app.config['MYSQL_DB'] = 'sql12770762'
 
 mysql = MySQL(app)
 
